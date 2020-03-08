@@ -1,2 +1,8 @@
 # Project exclude paths
 /venv/
+/listSpider/.idea/
+/argSpider/.idea/
+/itemSpider/.idea/
+/mingyan2/.idea/
+/nextSpider/.idea/
+/simpleStartUrl/.idea/
