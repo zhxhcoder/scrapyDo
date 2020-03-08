@@ -25,7 +25,6 @@ import scrapy
 
 
 class ArgsspiderSpider(scrapy.Spider):
-
     name = "argsSpider"
 
     def start_requests(self):

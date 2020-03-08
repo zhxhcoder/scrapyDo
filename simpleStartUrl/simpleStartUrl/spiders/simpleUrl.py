@@ -4,9 +4,11 @@
     另一种是直接定义一个方法：star_requests()
 """
 import scrapy
+
+
 class simpleUrl(scrapy.Spider):
     name = "simpleUrl"
-    start_urls = [  #另外一种写法，无需定义start_requests方法
+    start_urls = [  # 另外一种写法，无需定义start_requests方法
         'http://lab.scrapyd.cn/page/1/',
         'http://lab.scrapyd.cn/page/2/',
     ]

@@ -13,8 +13,8 @@ scrapy：1.3.3
 """
 import scrapy
 
-class itemSpider(scrapy.Spider):
 
+class itemSpider(scrapy.Spider):
     name = 'listSpider'
 
     start_urls = ['http://lab.scrapyd.cn']
